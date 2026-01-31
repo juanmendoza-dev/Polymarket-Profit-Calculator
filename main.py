@@ -13,10 +13,10 @@ capital = input("Capital (initial investment): ")
 #yes or no contract logic
 def contract():
     while True:
-        if yes_or_no == "yes" or  yes_or_no == "Y":
-            yes_or_no == True
-        elif yes_or_no == "no" or yes_or_no == "N":
-            yes_or_no == False
+        if yes_or_no == "yes" or  yes_or_no == "Y" or yes_or_no == "YES":
+            yes_or_no = True
+        elif yes_or_no == "no" or yes_or_no == "N" or yes_or_no == "NO":
+            yes_or_no = False
         else:
             print("invalid operator")
 
