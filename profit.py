@@ -1,6 +1,4 @@
-import time 
 from colorama import Fore
-import math 
 
 #comments are next to the inputs because colorama makes it a bit messy, sorry about that!
 # "yes" contracts = 1, and "no" contracts = 2
@@ -25,3 +23,4 @@ else:
     print(Fore.LIGHTRED_EX +"Error please start over!!")
 
 #profit logic 
+
