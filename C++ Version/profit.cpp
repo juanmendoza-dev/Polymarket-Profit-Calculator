@@ -9,7 +9,7 @@ int main(){
     std::cout << "Inital Capital?: " << '\n'; //inital capital 
     std::cin >> capital;
 
-    std::cout << "Purchased 'Yes' or 'No' Contract?";
+    std::cout << "Purchased 'Yes' or 'No' Contract?"; //figures out if the user bought yes or no contract!
     std::cin >> yes_no_contract;
     
     
@@ -17,5 +17,5 @@ int main(){
 
 
 
-    return 0;
+    return 0; //goodbye!
 }
