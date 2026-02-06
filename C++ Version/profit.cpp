@@ -37,7 +37,10 @@ int main(){
     if (perShare > capital){
         std::cout << "Too much money, Must depoist more money!";
     }
-    else if (perShare == capital)
+
+    else if (perShare == capital){
+        std::cout << "This is risky, It is highly reccomened not to use all the capital";
+    }
 
     return 0; //goodbye!
 }
