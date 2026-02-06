@@ -19,7 +19,7 @@ int main(){
        int yes_no_contract = 0; //makes the var into a "Yes" contract
     }
     
-
+//test commit
 
 
     return 0; //goodbye!
