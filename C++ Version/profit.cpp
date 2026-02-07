@@ -35,11 +35,11 @@ int main(){
 
     //safety rails 
     if (perShare > capital){
-        std::cout << "Too much money, Must depoist more money!";
+        std::cout << "Too much money, Must deposit more money!";
     }
 
     else if (perShare == capital){
-        std::cout << "This is risky, It is highly reccomened not to use all the capital";
+        std::cout << "This is risky, It is highly recommended not to use all the capital";
     }
 
     return 0; //goodbye!
