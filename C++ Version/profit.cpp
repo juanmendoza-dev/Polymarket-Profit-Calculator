@@ -26,7 +26,7 @@ int main(){
     }
 
     else{
-        std::cout << "Invaild Please Try again!";
+        std::cout << "Invalid Please Try again!";
     }
 
     //per share
