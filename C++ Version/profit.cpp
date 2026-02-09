@@ -31,8 +31,9 @@ int main(){
     }
 
     //per share
-    std::cout << "How much per " << yes_no_contract <<" contract/share?: "; // How much per {yes or no contract} contract?
+    std::cout << "How much per " <<'"' <<yes_no_contract << '"'<<" contract/share?: "; // How much per {yes or no contract} contract?
     std::cin >> perShare;
+
 
     //safety rails 
     if (perShare > capital){
@@ -50,6 +51,6 @@ int main(){
 TODO:
 
 1) Make it so that yes_no_contract: Accepts all type of yes/no inputs (Caps included)
-2) 
+2) Wrap the whole thing a while loop (similar to the python version)
 
 */
