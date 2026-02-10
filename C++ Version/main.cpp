@@ -1,11 +1,12 @@
-#include <iostream>
+#include <iostream> 
 #include <string>
+#include "riskAnalyzer.h"
 using std::cout;
+using std::cin;
 
 int main(){
-    //global vars
+    //var
     std::string selection;
-
 
 
     //UI launcher 
@@ -18,6 +19,10 @@ int main(){
     cout << "Choose Selection: "; //user selection
     std::cin >> selection; 
     
+    if (selection == "1" || selection == "one"){
+        runRiskAnalyzer() //runs risk analyzer 
+        
+    }
     
 
 
