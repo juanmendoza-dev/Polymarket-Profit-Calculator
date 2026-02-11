@@ -20,7 +20,7 @@ int main(){
     std::cin >> selection; 
     
     if (selection == "1" || selection == "one"){
-        runRiskAnalyzer() //runs risk analyzer 
+        runRiskAnalyzer(); //runs risk analyzer 
         
     }
     
