@@ -17,7 +17,7 @@ int main(){
     std::cout << "Purchased 'Yes' or 'No' Contract?: "; //figures out if the user bought yes or no contract!
     std::cin >> yes_no_contract;
 
-    std::cout << "How many " << yes_no_contract << " did you purchase?: ";
+    std::cout << "How many " << yes_no_contract << " did you purchase?: " << "\n";
     std::cin >> share;
     
     // Figures out if the contract is a "Yes" or "No" 
@@ -53,6 +53,7 @@ int main(){
     std::cout << "Contract Type: " << '"' << yes_no_contract << '"' << "Contract" << "\n"; //Contract type: {yes_no_contract} Contract
     std::cout << "Contract Buys: " << share << "\n"; // Contract buys: {share}
     std::cout << "Contract Price: " << perShare; //Contract Price: {perShare}
+    //risk goes here!
 
 
 
@@ -62,6 +63,8 @@ int main(){
 void Risk(){
 
     
+
+
 
 
 
