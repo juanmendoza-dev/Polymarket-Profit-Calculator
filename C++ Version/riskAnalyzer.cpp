@@ -10,7 +10,7 @@ void runRiskAnalyzer(){
     double capital; // total amount the user wants to spend 
     std::string trade1;  // f1 will win best picture (example)
     std::string contractType; //"Yes" or "No"
-    double $perShare; //price per "Yes" or "No" Share
+    double pricePerShare; //price per "Yes" or "No" Share
 
     //step 0 (launcher)
     cout << "Running Risk Analyzer..." << "\n";
@@ -29,7 +29,7 @@ void runRiskAnalyzer(){
 
     //step 4 (price per share)
     cout << "Price per " << '"' << contractType << '"' << " share"; //price per {contract type} share
-    cin >> $perShare;
+    cin >> pricePerShare;
 
 
 
